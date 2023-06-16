@@ -1,3 +1,9 @@
+function initDB(){
+    if(listItems() === null){
+        saveItem("list", [])
+    }
+}
+
 function saveItem(name, obj){
     try {
         localStorage.setItem(name, JSON.stringify(obj))

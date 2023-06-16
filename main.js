@@ -1,3 +1,4 @@
+initDB()
 function refreshTable(){
     const table = document.querySelector("tbody")
     table.innerHTML = ""

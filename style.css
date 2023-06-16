@@ -1,0 +1,25 @@
+#product_name, #product_price{
+    margin: 0 2% 0 0.5%;
+}
+
+#form{
+    display: flex;
+    flex-direction: row;
+}
+
+
+tr, td{
+    min-width: 10vw;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    font-weight: bold;
+    text-align: center;
+}
+
+#tbody td{
+    border:1px solid black;
+}
